@@ -280,3 +280,82 @@ body{
    End Highlights style
 ==========================
 */
+
+
+/*========================
+  Footer Section style
+==========================
+*/
+
+
+.footer-content{
+
+    
+    width: 485px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+.footer-image{
+
+    width: 100%;
+
+}
+
+.footer-image img{
+
+    width: 80%;
+
+}
+
+.footer-social{
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.footer-social i{
+
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color:  rgb(152 150 150 / 30%)
+}
+
+.copyright{
+
+    text-align: center;
+}
+.copyright p{
+
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+@media only screen and (max-width: 480px){
+
+
+    .footer-content{
+
+        width: 100%;
+    }
+
+    .footer-image{
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-image img{
+
+        width: 70%;
+
+
+    }
+ 
+ }
+ 
