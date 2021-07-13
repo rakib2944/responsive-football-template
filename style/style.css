@@ -53,17 +53,17 @@ body{
 }
 
 
-.watch-live {
+.watch {
 
     color: white;
     background-color: #E02C6D;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 10px 23px;
     font-size: 18px;
     
 }
 
-.watch-live span{
+.watch span{
 
     margin-left: 5px;
     font-size: 16px;
@@ -80,11 +80,12 @@ body{
 }
 
 /* Mobile Responsive Style */
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 480px) {
 
     .container{
 
         width: 100%;
+        padding: 0px 20px;
     }
 
     .header-content{
@@ -94,17 +95,188 @@ body{
 
     }
 
-    .heaeder-details, .header-image{
+    .heaeder-details{
 
         width: 100%;
         margin-bottom: 60px;
         
     }
 
+    .heaeder-details h1{
+
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+    }
+
+    .header-image{
+
+        width: 100%;
+    }
+
+    .header-image img{
+
+        width: 100%;
+    }
+
+    
+
     
 }
 
 /*========================
     End Header Section
+==========================
+*/
+
+
+
+
+/*========================
+    Start Player List Style 
+==========================
+*/
+
+.all-player{
+
+    margin: 50px 0px;
+
+}
+
+.players{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 0px 30px;
+
+}
+
+.player{
+
+    width: 330px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player img{
+
+    width: 100%;
+}
+
+.player h2{
+
+    color: #18191F;
+    font-size: 28px;
+    margin: 10px 0px;
+    font-weight: 800;
+}
+
+.player p{
+
+    color: #6C6C6C;;
+    padding-bottom: 15px;
+}
+
+
+/* Mobile View Style */
+
+@media only screen and (max-width: 480px){
+
+
+    .players{
+
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px 10px;
+    }
+    
+    .player{
+
+        width: 100%;
+        padding: 15px;
+    }
+
+}
+
+/*========================
+    End Player List Style 
+==========================
+*/
+
+
+
+/*========================
+   Start Highlights style 
+==========================
+*/
+
+
+.match{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 0px;
+
+}
+
+.match-details{
+
+    width: 40%;
+
+}
+
+.match-title{
+
+    width: 100%;
+
+}
+
+.match-title h1{
+
+    font-size: 48px;
+    color: #0A0826;
+    line-height: 60px;
+}
+
+.match-title p{
+
+    color: #6C6C6C;;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+.match-image{
+
+    width: 50%;
+}
+
+.match-image img{
+
+    width: 90%;
+}
+
+
+/* Mobile View Style */
+
+@media only screen and (max-width: 480px){
+
+
+   .match{
+
+    flex-direction: column;
+    
+   }
+   .match-details, .match-image, .match-image img{
+    width: 100%;
+    margin-bottom: 50px;
+   }
+
+}
+
+/*========================
+   End Highlights style
 ==========================
 */
