@@ -306,7 +306,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 120px 0px;
+    margin: 80px 0px;
     
 
 }
@@ -436,7 +436,7 @@ body{
 
     .schedule-table h1{
 
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .schedule-table th,td{
@@ -542,6 +542,11 @@ body{
 
         width: 100%;
         padding: 80px 20px; 
+    }
+
+    .contactus h1{
+
+        font-size: 30px;
     }
 
     .submitbtn{
